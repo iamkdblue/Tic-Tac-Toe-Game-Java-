@@ -28,7 +28,6 @@ public class Board {
 			if (p.getMarkType() == this.markType.NOUGHT) {
 				grid[row][column] = 0;
 				countMoves++;
-				System.out.println(countMoves);
 			}
 
 			else {

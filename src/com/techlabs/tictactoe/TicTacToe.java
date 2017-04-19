@@ -22,7 +22,7 @@ public class TicTacToe {
 		while (Board.countMoves < n*n) {
 			if (movesStatus == true) {
 				//cross
-				System.out.println("Player 1");
+				System.out.println("Player 1 enter position(row,column)");
 				int row = sc.nextInt();
 				int column = sc.nextInt();
 				movesStatus = false;
@@ -32,7 +32,7 @@ public class TicTacToe {
 				}
 			} else {
 				//circle
-				System.out.println("Player 2");
+				System.out.println("Player 2 enter position(row,column)");
 				int row = sc.nextInt();
 				int column = sc.nextInt();
 				movesStatus = true;
